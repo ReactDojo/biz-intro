@@ -46,7 +46,7 @@ class Main extends Component {
           >
             {nav}
             <Switch>
-              <Route exact={true} path='/' component={Dashboard} />
+              <Route exact={true} path='/' component={Cards} />
               <Route path='/dashboard' component={Dashboard} />
               <Route path='/login' component={Login} />
               <Route path='/cards' component={Cards} />
